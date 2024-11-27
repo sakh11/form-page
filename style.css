@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-size: 24px;
+}
+
+header, main {
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+main {
+    padding-top: 0;
+}
+
+/* Section CSS */
+section {
+    width: 60rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 2rem 4rem;
+    border: 0.1rem solid black;
+}
+
+.section-closing {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* /Section CSS */
+
+
+/* Form CSS */
+form {
+    width: 100%;
+    height: 100%;
+}
+
+/* Adds padding and increases the input font size */
+input {
+    padding: 0.2rem;
+    font-size: 1rem;
+    margin: 0.3rem;
+    
+}
+
+/* Increases the checkbox box size */
+input[type=checkbox] {
+    transform:scale(2);
+}
+
+/* Increases the Radio button size */
+input[type=radio] {
+    transform:scale(2);
+}
+
+/* /Form CSS */

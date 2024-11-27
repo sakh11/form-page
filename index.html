@@ -7,8 +7,168 @@
     <title>HTML Form Page</title>
 </head>
 <body>
+    <header>
+        <h1 class="page-title">Sytemeldingsskjema</h1>
+        <h2 class="page-subtitle">NB: Søker du humøravklaringspenger, bruk skjema 34B</h2>
+    </header>
     <main>
-        
+        <section class="section text-input">
+            <form action="" class="text-input-form">
+                <label for="first-name">Fornavn:</label>
+                <input type="text" id="first-name" name="first-name">
+
+                <label for="surname">Etternavn:</label>
+                <input type="text" id="surname" name="surname">
+
+                <label for="email">Epost:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="phone-number">Telefon Nummer:</label>
+                <input type="number" id="phone-number" name="phone-number">
+            </form>
+        </section>
+        <section class="section checkbox">
+            <h3 class="form-title"></h3>
+            <form action="" class="checkbox-form">
+                <input type="checkbox" id="syting" name="syting" value="syting">
+            <label for="syting">Ren syting</label>
+
+            <input type="checkbox" id="complaining" name="complaining" value="complaining">
+            <label for="complaining">Klaging</label>
+
+            <input type="checkbox" id="moaning" name="moaning" value="moaning">
+            <label for="moaning">Stønning</label>
+
+            <input type="checkbox" id="sulking" name="sulking" value="sulking">
+            <label for="sulking">Sukking</label>
+
+            <input type="checkbox" id="phew" name="phew" value="phew">
+            <label for="phew">Uffing</label>
+
+            <input type="checkbox" id="snort" name="snort" value="snort">
+            <label for="snort">Fnysing</label>
+
+            <input type="checkbox" id="lamentation" name="lamentation" value="lamentation">
+            <label for="lamentation">Jamring</label>
+
+            <input type="checkbox" id="torture" name="torture" value="torture">
+            <label for="torture">Pistring</label>
+
+            <input type="checkbox" id="whining" name="whining" value="whining">
+            <label for="whining">Sutring</label>
+
+            <input type="checkbox" id="querulation" name="querulation" value="querulation">
+            <label for="querulation">Kverulering</label>
+
+            <input type="checkbox" id="backbiting" name="backbiting" value="backbiting">
+            <label for="backbiting">Baksnakking</label>
+
+            <input type="checkbox" id="phobia" name="phobia" value="phobia">
+            <label for="phobia">Fobier</label>
+
+            <input type="checkbox" id="envy" name="envy" value="envy">
+            <label for="envy">Misunnelse</label>
+            </form>
+        </section>
+        <section class="section checkbox">
+            <form action="" class="checkbox-form">
+                <form action="" class="checkbox-form">
+                    <input type="checkbox" id="weather" name="weather" value="weather">
+                    <label for="weather">Været</label>
+    
+                    <input type="checkbox" id="prices" name="prices" value="prices">
+                    <label for="prices">Prisene</label>
+    
+                    <input type="checkbox" id="health" name="health" value="health">
+                    <label for="health">Helsa</label>
+    
+                    <input type="checkbox" id="relatives" name="relatives" value="relatives">
+                    <label for="relatives">Slekta</label>
+    
+                    <input type="checkbox" id="county" name="county" value="county">
+                    <label for="county">Kommunen</label>
+    
+                    <input type="checkbox" id="bass-music" name="bass-music" value="bass-music">
+                    <label for="bass-music">Dunk-dunk-musikk</label>
+    
+                    <input type="checkbox" id="accordion-instrument" name="accordion-instrument" value="accordion-instrument">
+                    <label for="accordion-instrument">Trekkspill</label>
+    
+                    <input type="checkbox" id="dressing-up" name="dressing-up" value="dressing-up">
+                    <label for="dressing-up">Påkledning</label>
+    
+                    <input type="checkbox" id="typing-error" name="typing-error" value="typing-error">
+                    <label for="typing-error">Skrivefeil</label>
+    
+                    <input type="checkbox" id="office-employees" name="office-employees" value="office-employees">
+                    <label for="office-employees">De som jobber på kontor</label>
+    
+                    <input type="checkbox" id="elitists" name="elitists" value="elitists">
+                    <label for="elitists">De som tror de er noe</label>
+    
+                    <input type="checkbox" id="what-did-I-say" name="what-did-I-say" value="what-did-I-say">
+                    <label for="what-did-I-say">Hva var det jeg sa</label>
+    
+                    <input type="checkbox" id="war-peace-etc" name="war-peace-etc" value="war-peace-etc">
+                    <label for="war-peace-etc">Krig og fred og sånt</label>
+    
+                    <input type="checkbox" id="everything-else" name="everything-else" value="everything-else">
+                    <label for="everything-else">Alt annet</label>
+                </form>
+            </form>
+        </section>
+        <section class="section text-input">
+            <form action="" class="text-input-form">
+                <label for="times-whining">Hvor mange ganger pr dag syter du?</label>
+                <input type="number" name="times-whining" id="times-whining">
+                <label for="times-whining">ganger.</label><br>
+
+                <label for="amount-of-people-told">Hvor mange har fått høre det?</label>
+                <input type="number" name="amount-of-people-told" id="amount-of-people-told">
+                <label for="amount-of-people-told">stk.</label><br>
+
+                <label for="">Har du tatt saken opp med den ansvarlige?</label>
+                <input type="radio" name="resolved" id="resolved">
+                <label for="resolved">Ja</label>
+                <input type="radio" name="resolved" id="resolved">
+                <label for="resolved">Nei, dette burde de ha forstått</label><br>
+            </form>
+        </section>
+        <section class="section radio-button">
+            <form action="" class="radio-button-form">
+                <label for="">Er du medlem i et klagekor, kaffegjeng, syklubb, e.l?</label>
+                <input type="radio" name="member" id="member">
+                <label for="member">Ja</label>
+                <input type="radio" name="member" id="member">
+                <label for="member">Nei</label><br>
+
+                <label for="">Er du utsatt for passive syting?</label>
+                <input type="radio" name="passive-whining" id="passive-whining">
+                <label for="passive-whining">Ja</label>
+                <input type="radio" name="passive-whining" id="passive-whining">
+                <label for="passive-whining">Nei</label><br>
+
+                <label for="">Er du allergisk mot lystgass, smittende latter, vitser, e.l?</label>
+                <input type="radio" name="allergi" id="allergi">
+                <label for="allergi">Ja</label>
+                <input type="radio" name="allergi" id="allergi">
+                <label for="allergi">Nei</label>
+            </form>
+        </section>
+        <section class="section section-closing">
+            <p>
+                Utarbeidet av sytiater Klagulf Jammerdal ved Helgelandssytehuset.<br>
+                Skjemaet fylles ut og leveres nærmeste omgivelser for umiddelbar saksbehandling.<br>
+                Last ned / skriv ut skjema fra <strong>www.sytemelding.no</strong> eller: <br>
+            </p>
+            <figure>
+                <img src="./assets/images/logo.png" alt="logo">
+            </figure>
+            <h2>oppfinnerkontoret.no</h2>
+        </section>
     </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
