@@ -13,12 +13,13 @@ html, body {
 }
 
 header, main {
-    width: 60rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     padding: 2rem 4rem;
+    background-color: #FCFCFC;
 }
 
 main {
@@ -27,12 +28,12 @@ main {
 
 /* Section CSS */
 section {
-    width: 60rem;
+    width: 100%;
     display: flex;
     justify-content: start;
     align-items: start;
     padding: 2rem 4rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid darkgrey;
 }
 
 .section-closing {
@@ -56,17 +57,25 @@ input {
     padding: 0.2rem;
     font-size: 1rem;
     margin: 0.3rem;
-    
 }
 
 /* Increases the checkbox box size */
 input[type=checkbox] {
     transform:scale(2);
+    margin-right: 0.5rem;
 }
 
 /* Increases the Radio button size */
 input[type=radio] {
     transform:scale(2);
+}
+
+label {
+    margin-right: 1rem;
+}
+
+.text-input label {
+    display: block;
 }
 
 /* /Form CSS */
